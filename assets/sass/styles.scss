@@ -8,7 +8,7 @@ $titulo-noticia:'Raleway-Bold';
 $pie-noticia:'Raleway-Regular';
 $color-titulo:rgb(81, 62, 122);
 $espacio: 110px;
-
+$colorsiber:rgb(63, 102, 175);
 $rosa:#FC3D7B;
 
 .text-blanco{
@@ -75,7 +75,7 @@ margin-top: 20px;
 }
 
 .home-menu{
-  background-color: #FC3D7B;
+  background-color:$colorsiber;
 }
 .home-contacto{
   color: #fff;
@@ -237,7 +237,7 @@ font-family: $titulo-noticia;
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #FC3D7B;
+  background:$colorsiber;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -297,12 +297,13 @@ font-family: $titulo-noticia;
 }
 
 .sidebar-nav>.sidebar-brand {
-  height: 65px;
+  height: 180px;
   font-size: 18px;
   line-height: 60px;
 }
 
 .sidebar-nav>.sidebar-brand a {
+  padding:20px 0px;
   color: #fff;
 }
 

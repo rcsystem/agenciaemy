@@ -1,9 +1,5 @@
 /************************************FUENTES DEL SITIO*********************************************************************/
 @import url("fuentes.css");
-.banner-content{
-
-  width: 100%;
-}
 .text-blanco {
   color: #fff; }
 
@@ -53,7 +49,7 @@ body {
   padding-left: 5px; }
 
 .home-menu {
-  background-color: #FC3D7B; }
+  background-color: #3f66af; }
 
 .home-contacto {
   color: #fff; }
@@ -184,7 +180,7 @@ body {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #FC3D7B;
+  background: #3f66af;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -232,11 +228,12 @@ body {
   text-decoration: none; }
 
 .sidebar-nav > .sidebar-brand {
-  height: 65px;
+  height: 180px;
   font-size: 18px;
   line-height: 60px; }
 
 .sidebar-nav > .sidebar-brand a {
+  padding: 20px 0px;
   color: #fff; }
 
 .sidebar-nav > .sidebar-brand a:hover {

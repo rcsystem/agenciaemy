@@ -31,32 +31,47 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        EMY-Agencia
-                    </a>
-					
+				<li class="sidebar-brand">
+				<a href="#"><center><img src="assets/images/logo1 (2).png"  alt=""></center></a>				
+				</li>
+                <li>
+				<a href="#">Inicio</a>
+				
+				</li>
+                <li>
+				<a  data-toggle="collapse" href="#colla-1" role="button" aria-expanded="false" aria-controls="collapseExample">Quienes Somos</a>
+				<ul class="collapse list-unstyled" id="colla-1">
+                	<li><a href="#">Misión</a></li>
+                    <li><a href="#">Visión</a></li>
+                </ul>
                 </li>
                 <li>
-                    <a href="index.php">INICIO</a>
+				<a  data-toggle="collapse" href="#colla-2" role="button" aria-expanded="false" aria-controls="collapseExample">Edecanes</a>
+				<ul class="collapse list-unstyled" id="colla-2">
+					<li><a href="#">A</a></li>
+            		<li><a href="#">AA</a></li>
+					<li><a href="#">AAA</a></li>
+				</ul>
+				</li>
+                <li>
+				<a  data-toggle="collapse" href="#colla-3" role="button" aria-expanded="false" aria-controls="collapseExample">Animadores</a>
+				<ul class="collapse list-unstyled" id="colla-3">
+					<li><a href="#">Mujer</a></li>
+            		<li><a href="#">Hombre</a></li>
+				</ul>
                 </li>
                 <li>
-                    <a href="#">QUIENES SOMOS</a>
+				<a  data-toggle="collapse" href="#colla-4" role="button" aria-expanded="false" aria-controls="collapseExample">Modelos</a>
+				<ul class="collapse list-unstyled" id="colla-4">
+					<li><a href="#">Fotografia fija</a></li>
+            		<li><a href="#">Pasarela</a></li>
+				</ul>
                 </li>
                 <li>
-                    <a href="catalogo.php">MODELOS</a>
+                    <a href="#">Únete a nosostros</a>
                 </li>
                 <li>
-                    <a href="catalogo.php">EDECANES</a>
-                </li>
-                <li>
-                    <a href="#">SERVICIOS</a>
-                </li>
-                <li>
-                    <a href="#">ÚNETE A NOSOTROS</a>
-                </li>
-                <li>
-                    <a href="contacto.php">CONTACTO</a>
+                    <a href="contacto.php">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -79,7 +94,7 @@
 					<div class="col-lg-7" >
 					<div class="home-logo">
 					<a href="index.php">
-						<img src="assets/images/logocopia.png" class="" alt="">
+						<img src="assets/images/logo-v.png" class="" alt="">
 						</a>
 						</div>		
 					</div>
