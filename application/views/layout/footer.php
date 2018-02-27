@@ -42,35 +42,35 @@
 
 
 	<!-- Link para los SCRIPTS  -->
-<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.js"></script>
 <!-- Modernizr javascript -->
-<script type="text/javascript" src="assets/plugins/modernizr.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/plugins/modernizr.js"></script>
 
 <!-- Isotope javascript -->
-<script type="text/javascript" src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/plugins/isotope/isotope.pkgd.min.js"></script>
 
 <!-- Backstretch javascript -->
-<script type="text/javascript" src="assets/plugins/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/plugins/jquery.backstretch.min.js"></script>
 
 <!-- Appear javascript -->
-<script type="text/javascript" src="assets/plugins/jquery.appear.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/plugins/jquery.appear.js"></script>
 
 <!-- Initialization of Plugins -->
-<script type="text/javascript" src="assets/js/template.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/template.js"></script>
 
 <!-- Custom Scripts -->
-<script type="text/javascript" src="assets/js/custom.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/custom.js"></script>
 
 <!-- Custom Registro -->
-<script type="text/javascript" src="assets/js/form-registro.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/form-registro.js"></script>
 
 <!-- Custom Login -->
-<script type="text/javascript" src="assets/js/login.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/login.js"></script>
 
 <!-- Custom Login -->
-<script type="text/javascript" src="assets/js/registro.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/registro.js"></script>
 
 <!-- Menu Toggle Script -->
     <script>

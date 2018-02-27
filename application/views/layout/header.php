@@ -8,17 +8,17 @@
 	<meta http-equiv=”Cache-Control” content=”no-cache, mustrevalidate”>
 
 <!-- Link para los estilos CCS -->
-	<link rel="stylesheet" href="assets/css/normalize.css">
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/normalize.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
 
 	<link href="https://file.myfontastic.com/2SQuVNdrs635VjAgGpanbP/icons.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/styles.css">
-	<link rel="shortcut icon" href="icon/logo1_2_.ico" type="image/x-icon">
-	<link rel="icon" href="icon/logo1_2_.ico" type="image/x-icon">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/styles.css">
+	<link rel="shortcut icon" href="<?php echo base_url(); ?>icon/logo1_2_.ico" type="image/x-icon">
+	<link rel="icon" href="<?php echo base_url(); ?>icon/logo1_2_.ico" type="image/x-icon">
 		<!-- Plugins -->
-		<link href="assets/css/animations.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/css/animations.css" rel="stylesheet">
 <!-- Custom css --> 
-		<link href="assets/css/custom.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">
 
 
 	<title>EMY EDECANES Y MODELOS, S.A. DE C.V.</title>
@@ -102,7 +102,7 @@
 					<div class="home-contacto col-lg-3" >
 					
 		                    <label for="home-tel">E-mail: ventas@emy.mx</label>
-		                    <p class="home-tel">Tel.: (55) 5892 - 6977 / Móvil: </p>
+		                    <p class="home-tel"> <a href="<?php echo base_url() ;?>index.php/inicio/registro">Registro</a> </p>
 						<!-- <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a> -->
                     </div>
 

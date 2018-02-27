@@ -27,4 +27,19 @@ public function _layout(){
 	$this->load->view("layout/footer");
 }
 
+public function _registro(){
+
+	$this->load->view("layout/header");
+
+	$this->load->view("registro");
+
+	$this->load->view("layout/footer");
+}
+
+public function registro(){
+
+	$this->_registro('registro');
+}
+
+
 	}
