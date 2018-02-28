@@ -119,7 +119,7 @@
 						</div>
 						<div class="col-auto" style="padding:0px 0px;">
 							<div class="txt">
-								<label><a href="" style="color:#fff; font-size:15px;">Registrar</a></label>
+								<label><a href="<?php echo base_url();?>index.php/inicio/registro" style="color:#fff; font-size:15px;">Registrar</a></label>
 							</div>
 							
 						</div>
