@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/normalize.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
 
-	<link href="https://file.myfontphp astic.com/2SQuVNdrs635VjAgGpanbP/icons.css" rel="stylesheet">
+	<link href="https://file.myfontastic.com/2SQuVNdrs635VjAgGpanbP/icons.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/styles.css">
 	<link rel="shortcut icon" href="<?php echo base_url();?>icon/logo1_2_.ico" type="image/x-icon">
 	<link rel="icon" href="<?php echo base_url();?>icon/logo1_2_.ico" type="image/x-icon">
