@@ -9,7 +9,8 @@
 
 		            <p>Lunes a Domingo 9:00 am a 6:00pm</p>
 		            <p>Llámanos +55 24 60 23 84</p>
-
+					<div class="formulario"><a href="#" class="btn btn-contactos"><i class="icon-android-create"></i> Escríbenos</a></div>
+						<br>
 		            <ul class="footer_social">
 		                <li class="facebook"><a href="#"><i class="icon-facebook"> </i> </a></li>
 		                <li class="twitter"><a href="#"><i class="icon-twitter"> </i> </a></li>
@@ -19,12 +20,10 @@
 		                <li class="googleplus"><a href="#"><i class="icon-google-plus"> </i> </a></li>
 		            </ul>
 			</div>
-			<div class="col-lg-4 text-center">
+			<div class="col-lg-8">
+				<div class="home-mapa">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240500.48886882412!2d-99.25281187283981!3d19.634985799458992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f502ad42d65f%3A0xf00b53299f3121b4!2sEMY+EDECANES+Y+MODELOS%2C+S.A.+DE+C.V.!5e0!3m2!1ses-419!2smx!4v1519230357003"
-						 width="250" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>		
-			</div>
-			<div class="col-lg-4 mx-auto text-center">
-				<img src="assets/images/logo.png" class="img-fluid img-footer" alt="">
+						 frameborder="0" style="border:0" allowfullscreen></iframe>		
 			</div>
 			</div>
 

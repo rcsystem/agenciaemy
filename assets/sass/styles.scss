@@ -76,6 +76,10 @@ margin-top: 20px;
 }
 
 .home-menu{
+  
+  position: fixed;
+  z-index: 80;
+  padding-bottom: 21px;
   background-color:$colorsiber;
 }
 .home-contacto{
@@ -679,4 +683,27 @@ width: 95%;
   list-style: none;
   text-decoration: none;
   color: #fff;
+}
+
+/*CSS para el mapa de l footer
+---------------------------------*/
+.home-mapa iframe {
+  width: 720px;
+  height: 250px;
+  @media (max-width: 480px){
+    width: 320px;
+    height: 250px;
+  }
+}
+
+/*Css boton de formulario
+-------------------------------------*/
+.formulario a{
+  color:rgb(81, 62, 122);
+
+  border-color: rgb(81, 62, 122);
+ &:hover{
+  background-color: rgb(81, 62, 122);
+  color:#fff;
+  }
 }

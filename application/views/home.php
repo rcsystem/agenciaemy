@@ -40,15 +40,24 @@
 						</div>
 				</div>
 
-				<div class="carousel-item">
-					<img class=" img-fluid" src="assets/images/home02.png" alt="Third slide">
-						<div class="col-lg-5 home-slider">
+					<div class="carousel-item ">
+			
+					<img class=" img-fluid" src="assets/images/home02.png" alt="First slide">
+						<div class="col-lg-5 ">
+							<div class="home-slider">
 						
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem amet soluta voluptates accusamus quaerat error aliquam, facere, suscipit, voluptatum illo excepturi iste eaque a laborum dignissimos praesentium recusandae temporibus autem!</p>
-						<a href="catalogo.php" class="btn btn-lg btn-default home-btn-mas"><b> VER MAS</b></a>
+								<h1>contamos con un extenso </h1>
+								<h1>catálgo de modelos y edecanes</h1>
+								<h1>a, aa, aaa.</h1>  
+								<div class="form-row text-center">
+								<div class="col-12">
+								<a href="catalogo.php" class="btn btn-lg btn-default home-btn-mas text-center"> <b> VER MAS</b></a>
+								</div>
+								</div>
+						
+							</div>
 						</div>
 				</div>
-
 				
         </div>
 
@@ -65,9 +74,8 @@
 </section>
 
 
-
   <section>
-    <div class="info-emp container">
+    <div  class="info-emp container">
       <div class="row">
           <div class="info-imp-item col-lg-6">
             <img src="assets/images/info-emp.jpg" class="rounded img-fluid" alt="">
@@ -75,19 +83,18 @@
           </div>
 
           <div class="home-titulos info-imp-item col-lg-6">
-			<h2>EMY Agencia</h2>
-            <p>Brindamos un servicio de clase mundial, con soluciones integrales en publicidad y promoción para todo tipo de eventos
-             sociales, culturales y negocios de cualquier magnitud a través del uso de servicios de comunicación, logrando con ello una
-              excelente satisfacción de nuestros clientes</p>
-               <a href="contacto.php" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> Contactanos</b></a>
+			<h2>EMY EDECANES Y MODELOS, S.A. DE C.V. </h2>
+            <p>Brindamos un servicio de clase mundial, con soluciones integrales en publicidad y promoción para todo tipo de eventos sociales, culturales y negocios de cualquier magnitud a través del uso de servicios de comunicación, logrando con ello una excelente satisfacción de nuestros clientes</p>
+               <a href="#info-empresa" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> Contactanos</b></a>
         </div>
 
       </div>
 </div>
   </section>
 
-    <section class="banner-content">
+  <section>
 	<div class="home-banner">
+		<div class="col-lg-12">
 			<div class="row">
 			<div class="col-lg-4">
 				<div class="icon-cliente ">
@@ -111,12 +118,10 @@
 			</div>
 		</div>
 	</div>
-
+</div>
   </section>
 
-
-
-  <section>
+  	<section>
 		<div class="container col-ls-12 home-espacio">
 			<div class="home-titulos text-center">
 			<h2>Contamos con los rostros ideales para representarte.</h2>
@@ -189,7 +194,7 @@
 			   </ul>
 			   <p>¡¡TE ESTAMOS BUSCANDO!!</p>
 			   <div class=" mx-auto text-center">
-               <a href="contacto.php" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> Contactanos</b></a>
+               <a href="#info-empresa" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> Contactanos</b></a>
 			   </div>
         </div>
 
