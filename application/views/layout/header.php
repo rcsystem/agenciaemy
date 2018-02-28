@@ -32,10 +32,10 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
 				<li class="sidebar-brand">
-				<a href="#"><center><img src="assets/images/logo1 (2).png"  alt=""></center></a>				
+				<a href="#"><center><img src="<?php echo base_url();?>assets/images/logo_1.png"  alt=""></center></a>				
 				</li>
                 <li>
-				<a href="#">Inicio</a>
+				<a href="<?php echo base_url();?>">Inicio</a>
 				
 				</li>
                 <li>
@@ -99,10 +99,10 @@
 						</div>		
 					</div>
 
-					<div class="home-contacto col-lg-3" >
+					<div class="home-tel col-lg-3" >
 					
 		                    <label for="home-tel">E-mail: ventas@emy.mx</label>
-		                    <p class="home-tel"> <a href="<?php echo base_url() ;?>index.php/inicio/registro">Registro</a> </p>
+		                    <p> <a href="<?php echo base_url() ;?>index.php/inicio/registro">Registro</a> </p>
 						<!-- <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a> -->
                     </div>
 
