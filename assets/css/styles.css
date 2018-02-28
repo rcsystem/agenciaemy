@@ -49,7 +49,7 @@ body {
   padding-left: 5px; }
 
 .home-menu {
-  background-color: #3f66af; }
+  background-color: #513e7a; }
 
 .home-contacto {
   color: #fff; }
@@ -144,6 +144,26 @@ body {
     -o-transition: .8s;
     transition: .8s; }
 
+.home-btn-login {
+  width: 70px;
+  height: 25px;
+  background: #644d96;
+  border-color: #513e7a;
+  font-size: 10px;
+  color: #fff; }
+  .home-btn-login:hover {
+    color: white;
+    background: #513e7a;
+    border-color: #513e7a;
+    -webkit-transition: .8s;
+    -o-transition: .8s;
+    transition: .8s; }
+
+.txt {
+  width: 140px;
+  height: 23px;
+  font-size: 10px; }
+
 .info-emp {
   margin-bottom: 110px; }
 
@@ -161,9 +181,13 @@ body {
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
+  #wrapper .logo_chico {
+    display: block; }
 
 #wrapper.toggled {
   padding-left: 250px; }
+  #wrapper.toggled .logo_chico {
+    display: none; }
 
 #sidebar-wrapper {
   z-index: 1000;
@@ -173,7 +197,7 @@ body {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #3f66af;
+  background: #513e7a;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;

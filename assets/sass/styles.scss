@@ -3,12 +3,13 @@
 /************************************FUENTES DEL SITIO*********************************************************************/
 @import url('fuentes.css');
 
+
 $titulos:'Raleway-Black';
 $titulo-noticia:'Raleway-Bold';
 $pie-noticia:'Raleway-Regular';
 $color-titulo:rgb(81, 62, 122);
 $espacio: 110px;
-$colorsiber:rgb(63, 102, 175);
+$colorsiber:rgb(81, 62, 122);
 $rosa:#FC3D7B;
 
 .text-blanco{
@@ -193,6 +194,28 @@ height: 550px;
   }
 }
 
+.home-btn-login{
+  width:70px;;
+  height: 25px;
+  background:rgb(100, 77, 150); 
+  border-color: $colorsiber;
+  font-size: 10px;
+  color:#fff;
+
+  &:hover{
+    color: rgb(255, 255, 255);
+  background: rgb(81, 62, 122);
+  border-color: $colorsiber;
+  transition: .8s;
+  }
+}
+
+.txt{
+  width: 140px;
+  height: 23px;
+  font-size: 10px;
+}
+
 .info-emp{
  
   margin-bottom: $espacio;
@@ -217,10 +240,16 @@ font-family: $titulo-noticia;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  & .logo_chico{
+    display: block;
+  }
 }
 
 #wrapper.toggled {
   padding-left: 250px;
+  & .logo_chico{
+    display: none;
+  }
 }
 
 #sidebar-wrapper {
