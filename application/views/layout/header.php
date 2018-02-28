@@ -96,7 +96,7 @@
 
 					<div class="col-lg-5" >
 					<div class="home-logo">
-					<a href="index.php">
+					<a href="<?php echo base_url();?>">
 						<img src="<?php echo base_url();?>assets/images/logo-v.png" class="logo_chico" alt="">
 						</a>
 						</div>		
