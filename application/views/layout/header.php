@@ -106,11 +106,11 @@
 					<form>
 					<div class="form-row align-items-center" style="padding:18px 0px;">
 						<div class="col-auto" >
-							<input type="text" class="txt" id="inlineFormInput" placeholder="Correo Electronico">
+							<input type="email" class="txt" id="inlineFormInput" placeholder="Correo Electronico">
 							<!--<p style=" padding:0px;"><a href="" style="color:#fff; font-size:8px;">¿Has olvidado los datos de la cuenta?</a></p>-->
 						</div>
 						<div class="col-auto" style="float: right;">
-							<input type="text" class="txt" id="inlineFormInputGroup" placeholder="Contraseña">
+							<input type="password" class="txt" id="inlineFormInputGroup" placeholder="Contraseña">
 							
 						</div>
 						<div class="col-auto">
