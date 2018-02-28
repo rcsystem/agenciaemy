@@ -629,9 +629,9 @@ width: 95%;
 }
 
 .btn-reg{
-  color: #513e7a;
+  color: #fff;
     border-color: #513e7a;
-    background-color: #fff;
+    background-color: #513e7a;
   
     -webkit-transition: .8s;
     -o-transition: .8s;
@@ -639,7 +639,7 @@ width: 95%;
  
   &:hover{
     color: white;
-    background: #513e7a;
+    background: #8259da;
   }
 }
 
